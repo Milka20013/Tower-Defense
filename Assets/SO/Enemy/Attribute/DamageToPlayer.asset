@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54ba5c5a9858987488ea5c4e0f9c4f95, type: 3}
+  m_Name: DamageToPlayer
+  m_EditorClassIdentifier: 
+  attributeName: Damage to Player
+  icon: {fileID: 21300000, guid: c937db3b56ead284fbd0f3d68a4f610a, type: 3}

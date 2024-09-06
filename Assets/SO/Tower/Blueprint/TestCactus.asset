@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55b6ec4757e3bbc4d8888ee9bfbe5f2a, type: 3}
+  m_Name: TestCactus
+  m_EditorClassIdentifier: 
+  towerName: Test Mushroom
+  icon: {fileID: 21300000, guid: 7cc3e1b4944a85d49b65aa41033fa463, type: 3}
+  prefab: {fileID: 1127542593602074177, guid: cf39694e5c54d6940ab626fc61edb26c, type: 3}
+  cost: 300
+  relations:
+  - attribute: {fileID: 11400000, guid: 819819a3e59d2094dbb15806db0177e3, type: 2}
+    relation: 2
+  - attribute: {fileID: 11400000, guid: 07406d5d11d93924aa7432a24074d938, type: 2}
+    relation: 2
+  attributes:
+  - attribute: {fileID: 11400000, guid: 353839c4369c214409c6db2c165f2f24, type: 2}
+    value: 1
+  - attribute: {fileID: 11400000, guid: 72b3604fd26f8b64fbffd34300b9d1ff, type: 2}
+    value: 0.6
+  - attribute: {fileID: 11400000, guid: b67d539eb5ca9fa45aaff7c6793c88b8, type: 2}
+    value: 5
+  - attribute: {fileID: 11400000, guid: c36794f64edd6a044a219204a9fb4c56, type: 2}
+    value: 12
+  - attribute: {fileID: 11400000, guid: f481182232213904e80b6e53c60d03b1, type: 2}
+    value: 4
+  - attribute: {fileID: 11400000, guid: 8b0aeceb4d99af64289eaa18875d1e15, type: 2}
+    value: 2
+  - attribute: {fileID: 11400000, guid: 47b7cc745395b014782aafeb7a5310ce, type: 2}
+    value: 1

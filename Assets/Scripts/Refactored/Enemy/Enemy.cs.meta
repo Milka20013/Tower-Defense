@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0ad3112eab4d92f458a7141ba8b2d687
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - deathEffect: {fileID: 2580805665074330898, guid: dd767b393e3630841a1e9d3c6c74d96d, type: 3}
+  - blueprint: {instanceID: 0}
+  - attributeContainer: {fileID: 11400000, guid: 033066219ce5dc04c82d50eafab1aa5c, type: 2}
+  - eventContainer: {fileID: 11400000, guid: 5b4d27c89472de84ba7f599a885dfdb9, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

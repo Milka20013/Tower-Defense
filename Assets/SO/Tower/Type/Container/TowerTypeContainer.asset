@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fb0bf88102ab3f46bf5c49f1021b20b, type: 3}
+  m_Name: TowerTypeContainer
+  m_EditorClassIdentifier: 
+  any: {fileID: 11400000, guid: 1b41416be9ad8d54a8be42dd8ba20608, type: 2}
+  mushroom: {fileID: 11400000, guid: 4ada843890d76844c89fe4ec5832b6a0, type: 2}
+  berry: {fileID: 11400000, guid: 2c58827d98d4f9a4f921c84fc2886651, type: 2}
+  income: {fileID: 11400000, guid: 7c0cac88805956b4f84c06535fb47cf9, type: 2}
+  subTower: {fileID: 11400000, guid: ab9166097e00c0448bc3ba671b478835, type: 2}
+  platform: {fileID: 11400000, guid: 7a78ffbe983902e4580ebf4a155511ce, type: 2}

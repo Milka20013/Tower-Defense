@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3112793618207606987
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 93eb4bd3b1cf388408d91fef543020be, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.3902464
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 93eb4bd3b1cf388408d91fef543020be, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.99
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 93eb4bd3b1cf388408d91fef543020be, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -18.187178
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 93eb4bd3b1cf388408d91fef543020be, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 93eb4bd3b1cf388408d91fef543020be, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 93eb4bd3b1cf388408d91fef543020be, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 93eb4bd3b1cf388408d91fef543020be, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 93eb4bd3b1cf388408d91fef543020be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 93eb4bd3b1cf388408d91fef543020be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 93eb4bd3b1cf388408d91fef543020be, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 93eb4bd3b1cf388408d91fef543020be, type: 3}
+      propertyPath: m_Name
+      value: Bee
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 93eb4bd3b1cf388408d91fef543020be, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 578815047665815151}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 93eb4bd3b1cf388408d91fef543020be, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -2510776438011604434}
+  m_SourcePrefab: {fileID: 100100000, guid: 93eb4bd3b1cf388408d91fef543020be, type: 3}
+--- !u!1 &2878843170342516122 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 93eb4bd3b1cf388408d91fef543020be, type: 3}
+  m_PrefabInstance: {fileID: 3112793618207606987}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &578815047665815151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2878843170342516122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1e9f61ec5a88e94989ae63ad82f9c8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attributeContainer: {fileID: 11400000, guid: 2420fdc4c3ec24f44b52d86d18849ac7, type: 2}
+  eventContainer: {fileID: 11400000, guid: 5b4d27c89472de84ba7f599a885dfdb9, type: 2}
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  towerLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  beehivePosition: {x: 0, y: 0, z: 0}
+  damage: 0
+  speed: 0
+  detectionRange: 0
+--- !u!114 &-2510776438011604434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2878843170342516122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae93a74fb31c109408aa1b2e732c38c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events:
+  - gameEvent: {fileID: 11400000, guid: d2899c1d67f97d340bae4a336f0f3337, type: 2}
+    response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 578815047665815151}
+          m_TargetAssemblyTypeName: Bee, Assembly-CSharp
+          m_MethodName: OnRoundStarted
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2

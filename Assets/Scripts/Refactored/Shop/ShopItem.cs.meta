@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f8528e1b758799d40811ee78a47a0027
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - towerBlueprint: {instanceID: 0}
+  - costText: {instanceID: 0}
+  - icon: {instanceID: 0}
+  - eventContainer: {fileID: 11400000, guid: 5b4d27c89472de84ba7f599a885dfdb9, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

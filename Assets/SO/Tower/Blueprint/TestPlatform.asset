@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55b6ec4757e3bbc4d8888ee9bfbe5f2a, type: 3}
+  m_Name: TestPlatform
+  m_EditorClassIdentifier: 
+  towerName: Lilypad
+  icon: {fileID: 21300000, guid: 3da9486616054f34ca722315699f1f0b, type: 3}
+  prefab: {fileID: 2965355499648395964, guid: db931da58416ab84dac9f55b514226af, type: 3}
+  cost: 100
+  relations:
+  - attribute: {fileID: 11400000, guid: 819819a3e59d2094dbb15806db0177e3, type: 2}
+    relation: 0
+  - attribute: {fileID: 11400000, guid: 07406d5d11d93924aa7432a24074d938, type: 2}
+    relation: 2
+  attributes:
+  - attribute: {fileID: 11400000, guid: c36794f64edd6a044a219204a9fb4c56, type: 2}
+    value: 1
+  types: []

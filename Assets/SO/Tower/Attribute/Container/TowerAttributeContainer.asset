@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49cc2c23b0fd5f04495ccae6594c4991, type: 3}
+  m_Name: TowerAttributeContainer
+  m_EditorClassIdentifier: 
+  attackSpeed: {fileID: 11400000, guid: 72b3604fd26f8b64fbffd34300b9d1ff, type: 2}
+  range: {fileID: 11400000, guid: c36794f64edd6a044a219204a9fb4c56, type: 2}
+  tickRate: {fileID: 11400000, guid: 47b7cc745395b014782aafeb7a5310ce, type: 2}
+  tickCount: {fileID: 11400000, guid: fc8d39b9213992c4fa1e136f9403bcc6, type: 2}
+  endOfRoundMoney: {fileID: 11400000, guid: 95a6ef6a7ab95004385cd08f1dbddfc2, type: 2}
+  moneyPerTick: {fileID: 11400000, guid: 0b0de57d974311947808092a36383110, type: 2}
+  pierce: {fileID: 11400000, guid: b67d539eb5ca9fa45aaff7c6793c88b8, type: 2}
+  damage: {fileID: 11400000, guid: 353839c4369c214409c6db2c165f2f24, type: 2}
+  explosionRadius: {fileID: 11400000, guid: 96bdbedfc898a1e459c7f7738eeafc4a, type: 2}
+  projectileLifeTime: {fileID: 11400000, guid: f481182232213904e80b6e53c60d03b1, type: 2}
+  projectileSize: {fileID: 11400000, guid: 8b0aeceb4d99af64289eaa18875d1e15, type: 2}
+  projectileSpeed: {fileID: 11400000, guid: 4590d411386bb094196bbc4d7b4c7ced, type: 2}

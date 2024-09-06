@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bd4387fbdc50d2c418b8213b0d572caa
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - blueprint: {instanceID: 0}
+  - attributeContainer: {fileID: 11400000, guid: 2420fdc4c3ec24f44b52d86d18849ac7, type: 2}
+  - typeContainer: {fileID: 11400000, guid: d1e76f98697dfd741a845ca6985b85a3, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

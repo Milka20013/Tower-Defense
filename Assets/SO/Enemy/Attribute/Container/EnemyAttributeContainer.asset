@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b3c4267a0b5e87408ee9e16ecf04748, type: 3}
+  m_Name: EnemyAttributeContainer
+  m_EditorClassIdentifier: 
+  speed: {fileID: 11400000, guid: 70aa27e63435052418fef5dc1e8645e4, type: 2}
+  bounty: {fileID: 11400000, guid: c6bef790a9f207940abda1f4b8305e22, type: 2}
+  damageToPlayer: {fileID: 11400000, guid: 5729da576c5a1654b812ef94efe032c3, type: 2}
+  health: {fileID: 11400000, guid: 3ee7b3a17f010be4080e9f40daa6c1b6, type: 2}
+  rank: {fileID: 11400000, guid: b7b9b3f5dedbb5147beaf6ea89becd57, type: 2}
+  luck: {fileID: 11400000, guid: ecccc03a368033a4a98ff63abdd2af95, type: 2}
+  fateThreshold: {fileID: 11400000, guid: 82bf4d100801788428a941609e8c2cd2, type: 2}
